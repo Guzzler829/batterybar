@@ -1,0 +1,9 @@
+Package: com.guzzler.batterybar
+Name: batterybar
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A bar across the top of the screen showing how much battery is remaining.
+Maintainer: Guzzler829
+Author: Guzzler829
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
