@@ -43,7 +43,7 @@ id batteryBarAllignment;
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class _UIBatteryView; @class _UIStatusBar; 
+@class _UIStatusBar; @class _UIBatteryView; 
 static void (*_logos_orig$_ungrouped$_UIStatusBar$layoutSubviews)(_LOGOS_SELF_TYPE_NORMAL _UIStatusBar* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$_UIStatusBar$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL _UIStatusBar* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$_ungrouped$_UIStatusBar$_updateStyleAttributes)(_LOGOS_SELF_TYPE_NORMAL _UIStatusBar* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$_UIStatusBar$_updateStyleAttributes(_LOGOS_SELF_TYPE_NORMAL _UIStatusBar* _LOGOS_SELF_CONST, SEL); static double (*_logos_orig$_ungrouped$_UIStatusBar$alphaForPartWithIdentifier$)(_LOGOS_SELF_TYPE_NORMAL _UIStatusBar* _LOGOS_SELF_CONST, SEL, id); static double _logos_method$_ungrouped$_UIStatusBar$alphaForPartWithIdentifier$(_LOGOS_SELF_TYPE_NORMAL _UIStatusBar* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$_ungrouped$_UIStatusBar$drawBatteryBar(_LOGOS_SELF_TYPE_NORMAL _UIStatusBar* _LOGOS_SELF_CONST, SEL); static double (*_logos_orig$_ungrouped$_UIBatteryView$chargePercent)(_LOGOS_SELF_TYPE_NORMAL _UIBatteryView* _LOGOS_SELF_CONST, SEL); static double _logos_method$_ungrouped$_UIBatteryView$chargePercent(_LOGOS_SELF_TYPE_NORMAL _UIBatteryView* _LOGOS_SELF_CONST, SEL); 
 
 #line 24 "Tweak.x"
